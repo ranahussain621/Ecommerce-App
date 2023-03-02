@@ -35,7 +35,7 @@ const Navbar = () => {
               <i className='fa-solid fa-bag-shopping'></i>
             </span>
             <span className='navbar-brand-txt mx-2'>
-              <span className='fw-7'>Rana</span>
+              <span className='fw-7'>RANA</span>
             </span>
           </Link>
         </div>
