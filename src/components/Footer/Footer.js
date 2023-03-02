@@ -9,11 +9,11 @@ const Footer = () => {
         <div className='flex align-center justify-center text-white fw-3 fs-14'>
           <Link to = "/" className='text-uppercase'>privacy policy</Link>
           <div className='vert-line'></div>
-          <Link to = "/" className='text-uppercase'>term of service</Link>
+          <Link to = "/" className='text-uppercase'>terms of services</Link>
           <div className='vert-line'></div>
-          <Link to = "/" className='text-uppercase'>About SnapUp.</Link>
+          <Link to = "/" className='text-uppercase'>About Company</Link>
         </div>
-        <span className='text-white copyright-text text-manrope fs-14 fw-3'>&copy; 2022 SnapUp. All Rights Reserved.</span>
+        <span className='text-white copyright-text text-manrope fs-14 fw-3'> 2023  &copy; All Rights Reserved by Rana</span>
       </div>
     </footer>
   )

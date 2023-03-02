@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 import { useSelector, useDispatch} from 'react-redux';
 import { setSidebarOn } from '../../store/sidebarSlice';
 import { getAllCategories } from '../../store/categorySlice';
-import { getAllCarts, getCartItemsCount, getCartTotal } from '../../store/cartSlice';
+import { getAllCarts, getCartItemsCount,getCartTotal } from '../../store/cartSlice';
 import CartModal from "../CartModal/CartModal";
 
 const Navbar = () => {
@@ -21,7 +21,7 @@ const Navbar = () => {
 
   useEffect(() => {
     dispatch(getCartTotal());
-  }, [carts])
+  }, [dispatch])
 
   return (
     <nav className='navbar'>
@@ -35,7 +35,7 @@ const Navbar = () => {
               <i className='fa-solid fa-bag-shopping'></i>
             </span>
             <span className='navbar-brand-txt mx-2'>
-              <span className='fw-7'>Snap</span>Up.
+              <span className='fw-7'>Rana</span>
             </span>
           </Link>
         </div>
@@ -52,8 +52,8 @@ const Navbar = () => {
 
           <ul className='navbar-nav flex align-center fs-12 fw-4 font-manrope'>
             {
-              // taking only first 8 categories
-              categories.slice(0, 8).map((category, idx) => (
+              // taking only first 10 categories
+              categories.slice(0, 10).map((category, idx) => (
                 <li className='nav-item no-wrap' key = {idx}>
                   <Link to = {`category/${category}`} className='nav-link text-capitalize'>{category.replace("-", " ")}</Link>
                 </li>
