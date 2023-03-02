@@ -1,4 +1,4 @@
-Live URL (https://rana-ecommerce.vercel.app/)
+Live URL (https://ecommerce-app-ranahussain621.vercel.app/)
 
 # Getting Started with Create React App
 
